@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Ghanashyam.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/Users/Prakalpit/desktop/djangoproject/src/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
