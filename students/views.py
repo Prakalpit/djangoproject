@@ -6,6 +6,6 @@ def home(*args, **kwargs):
                         "Welcome to my webpage"
                         "</h1>")
 def contact(*args, **kwargs):
-    return HttpResponse("<h1>You can contact me at drparishrameearticles@gmail.com<<br>"
-                        "or parishramee@debhiss.com/h1>")
+    return HttpResponse("<h1>You can contact me at drparishrameearticles@gmail.com<br>"
+                        "or parishramee@debhiss.com</h1>")
 # Create your views here.

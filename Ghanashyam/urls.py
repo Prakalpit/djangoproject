@@ -18,7 +18,7 @@ from django.urls import path
 from students import views
 
 urlpatterns = [
-    path('contact/', views.contact, name='contact')
+    path('contact/', views.contact, name='contact'),
     path('', views.home, name='home'),
     path('admin/', admin.site.urls),
 ]
