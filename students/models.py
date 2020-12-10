@@ -5,3 +5,5 @@ class Student(models.Model):
     fee  =models.FloatField(max_length=3, default='500')
     about=models.TextField(blank=True, null=True)
 # Create your models here.
+    def __str__(self):
+        return self.name
